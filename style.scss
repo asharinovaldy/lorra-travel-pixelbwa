@@ -333,6 +333,8 @@ $font-lorra : 'Lora', serif;
 @media only screen and (max-width: 600px) {
 
     .header {
+        background-size: cover;
+        
         .header-text {
             display: flex;
             justify-content: center;
