@@ -1,0 +1,443 @@
+$font-lato : 'Lato', sans-serif;
+$font-lorra : 'Lora', serif;
+
+.navbar {
+    padding: 40px;
+    .nav-item {
+        font-family: $font-lato;
+        font-size: 18px;
+    }
+}
+
+
+.header {
+    background-image: url("../assets/pic.png");
+    background-size: cover;
+    height: 630px;
+
+    .header-text {
+        font-family: $font-lorra;
+        font-size: 48px;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 120px;
+        line-height: 65px;
+        opacity: 0;
+        transition: 1s;
+        transform: translate(70px,0);
+    }
+
+
+    .header-caption {
+        font-family: $font-lato;
+        font-size: 18px;
+        margin-top: 20px;
+        color: #fff;
+        opacity: 0;
+        transition: 1s;
+        transform: translate(70px,0);
+    }
+
+    .header-landing {
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+.card {
+    margin-top: 90px;
+    transition: 3s;
+    transform: translate(0, 100px);
+    opacity: 0;
+
+    .card-body {
+        padding: 30px 30px 30px 30px;
+    
+        .btn-explore {
+            width: 340px;
+            height: 60px;
+            font-family: $font-lato;
+            background-color: #539592;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 0;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.main-content {
+    margin-top: 150px;
+
+    .text-content {
+        font-family: $font-lato;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        color: #FF9050;
+    }
+
+    .content-title {
+        font-family: $font-lorra;
+        font-size: 36px;
+        font-weight: bold;
+        color: #2B312E;
+        text-transform: capitalize;
+        margin-top: 5px;
+        line-height: 55px;
+    }
+
+    .img-content {
+        
+        width: 270px;
+        height: 400px;
+        background-size: cover;
+        margin-top: 70px;
+        transition: .5s;
+        transform: translate(0,70px);
+        opacity: 0;
+
+
+        .img-desc {
+
+            padding: 317px 120px 30px 30px;
+            
+            h3 {
+                font-size: 18px;
+                font-weight: 500;
+                color: #fff;
+                text-transform: capitalize;
+                font-family: $font-lato;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: #fff;
+                text-transform: capitalize;
+                font-family: $font-lato;
+            }
+        }
+    }
+
+    .landing {
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+.our-goals {
+    margin-top: 150px;
+    padding-top: 160px;
+    // background-color: #FCFBFF;
+
+    .img-goals {
+        width: 464px;
+        height: 540px;
+        background-size: cover;
+        margin-left: 63px;
+        // opacity: 0;
+        // transition: 2s;
+        // transform: translate(70px, 0);
+    }
+
+    // .img-landing {
+    //     opacity: 1;
+    //     transform: translate(0,0);
+    // }
+
+    .goal-desc {
+        margin-left: 70px;
+
+        .goal-text {
+            font-family: $font-lato;
+            font-weight: 700;
+            font-size: 18px;
+            color: #FF9050;
+            text-transform: uppercase;
+        }
+
+        .goal-title {
+            font-family: $font-lorra;
+            font-weight: bold;
+            font-size: 36px;
+            color: #2B312E;
+            text-transform: capitalize;
+            margin-top: 5px;
+            line-height: 55px;
+        }
+    }
+
+    .testimonial-box {
+        margin-left: 70px;
+        margin-top: 50px;
+        
+        .quote {
+            font-family: $font-lorra;
+            font-weight: bold;
+            font-size: 200px;
+            color: #EFEDF3;
+            transform: rotate(180deg);
+            position: absolute;
+            z-index: -1;
+            margin-top: -70px;
+            margin-right: 10px;
+        }
+
+        .testimonial {
+            font-family: $font-lato;
+            font-size: 22px;
+            color: #6B6A6A;
+            line-height: 42px;
+        }
+
+        .img-testimonial {
+
+            display: flex;
+
+            img {
+                margin-top: 20px;
+                width: 50px;
+                height: 50px;
+                border-radius: 100px;
+            }
+
+            .testimonial-user {
+
+                margin-top: 22px;
+                margin-left: 16px;
+
+                h3 {
+                    font-family: $font-lato;
+                    font-weight: bold;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                }
+    
+                p {
+                    font-family: $font-lato;
+                    font-size: 14px;
+                    color: #787676;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+
+    .partner {
+        margin-top: 50px;
+        img {
+            width: 120px;
+            height: 40px;
+        }
+
+        img:nth-child(2) {
+            margin: 0 40px 0 40px;
+        }
+    }
+}
+
+.subscribe {
+    width: 835px;
+    height: 130px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 31px 0 39px 35px;
+    margin-top: 65px;
+    margin-left: 380px;
+    position: absolute;
+    z-index: 1;
+
+    .subscribe-header {
+        h2{
+            font-family: $font-lorra;
+            font-size: 24px;
+            font-weight: bold;
+            color: #2B312E;
+        }
+        p {
+            margin-top: 10px;
+            font-family: $font-lato;
+            font-size: 16px;
+            color: #AEAFAE;
+        }
+    }
+
+    .subscribe-form {
+        margin-left: 60px;
+
+        input {
+            width: 297px;
+            height: 50px;
+            background-color: #FAFAFB;
+            border: 1px solid #F1F2F3;
+        }
+
+        button {
+            width: 160px;
+            height: 50px;
+            background-color: #539592;
+        }
+
+        .btn-subscribe {
+            font-family: $font-lato;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}
+
+.section-footer {
+    background-color: #192E46;
+    width: 1250px;
+    height: 420px;
+    border-radius: 0 50px 0 0;
+    z-index: -1;
+    margin-top: 127px;
+
+    .footer-logo {
+        padding-top: 137px;
+        width: 36px;
+    }
+
+    .footer-desc {
+        font-family: $font-lato;
+        margin-top: 27px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .footer-feature {
+        margin-top: 148px;
+        font-family: $font-lato;
+        color: #fff;
+
+        h3 {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        p {
+            font-weight: lighter;
+            margin-top: 15px;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .header {
+        .header-text {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .header-caption {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .card {
+            margin-top: 20px;
+        }
+    }
+
+    .main-content {
+        margin-top: 380px;
+
+        .img-content {
+            margin: 10px auto;
+        }
+    }
+    
+    .our-goals {
+
+        margin: auto;
+
+        .img-goals {
+            width: 400px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-box {
+            margin: auto;
+        }
+
+        .goal-desc {
+            margin: auto;
+            text-align: center;
+        }
+
+        .goal-title {
+            margin-top: auto;
+            text-align: center;
+        }
+
+        .testimonial {
+            margin-top: 40px;
+            padding: 0 10px 0 10px;
+            text-align: justify;
+        }
+
+        .img-testimonial {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .section-footer {
+        width: 100%;
+        height: 100%;
+        
+
+        .footer-feature {
+            margin: auto;
+        }
+    }
+
+    .subscribe {
+        margin-top: 60px;
+        margin-left: 0;
+        position: relative;
+        width: 100%;
+
+        .subscribe-header {
+            h2 {
+                display: flex;
+                justify-content: center;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .subscribe-form {
+            input {
+                width: 150px;
+            }
+
+            button {
+                margin-top: 20px;
+                width: 150px;
+            }
+
+            .btn-subscribe {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
