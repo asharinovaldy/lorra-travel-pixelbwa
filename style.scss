@@ -334,7 +334,7 @@ $font-lorra : 'Lora', serif;
 
     .header {
         background-size: cover;
-        
+
         .header-text {
             display: flex;
             justify-content: center;
@@ -354,6 +354,10 @@ $font-lorra : 'Lora', serif;
 
     .main-content {
         margin-top: 380px;
+
+        .content-title {
+            margin-bottom: 40px;
+        }
 
         .img-content {
             margin: 10px auto;

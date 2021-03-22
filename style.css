@@ -351,6 +351,9 @@
   .main-content {
     margin-top: 380px;
   }
+  .main-content .content-title {
+    margin-bottom: 40px;
+  }
   .main-content .img-content {
     margin: 10px auto;
   }
